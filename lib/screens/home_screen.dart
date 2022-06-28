@@ -3,7 +3,6 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:submission_flutter_pemula/screens/detail_screen.dart';
 import 'package:submission_flutter_pemula/widgets/task_item.dart';
-
 import '../model/task_model.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -30,7 +29,6 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
-    var orientation = MediaQuery.of(context).orientation;
     return Scaffold(
       backgroundColor: const Color(0xFFE1E2E7),
       body: Column(
